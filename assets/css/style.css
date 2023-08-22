@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 :root {
-  --body-color: 48 48 58;
-  
+  /* --body-color: 48 48 58; */
+
   --font-color: 255 255 255;
   --highlight-color: 0 0 0;
   
@@ -13,8 +13,17 @@
 }
 
 body {
-  background-color: rgb(var(--body-color));
+  /* background-color: rgb(var(--body-color)); */
   margin: 0px;
+  background-image: url(/assets/img/drive.png);
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 body::-webkit-scrollbar {
